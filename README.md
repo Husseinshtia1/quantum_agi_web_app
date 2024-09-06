@@ -19,11 +19,6 @@ PennyLane (for quantum computing)
 yFinance (for fetching stock data)
 scikit-learn (for data splitting and cross-validation)
 Installation
-Clone the repository:
-
-git clone https://github.com/Husseinshtia1/quantum-stock-predictor.git
-cd quantum-stock-predictor
-Create a virtual environment (optional but recommended):
 
 
 python3 -m venv venv
