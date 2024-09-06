@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchical RL</title>
+</head>
+<body>
+    <h1>Hierarchical Reinforcement Learning</h1>
+    <form method="POST">
+        <label for="state">State (comma-separated):</label><br>
+        <input type="text" id="state" name="state"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if sub_task %}
+        <h2>Selected Sub-Task: {{ sub_task }}</h2>
+    {% endif %}
+</body>
+</html>

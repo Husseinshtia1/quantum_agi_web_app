@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Machine Learning</title>
+</head>
+<body>
+    <h1>Quantum Machine Learning</h1>
+    <form method="POST">
+        <label for="input_data">Input Data (comma-separated):</label><br>
+        <input type="text" id="input_data" name="input_data"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>

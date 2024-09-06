@@ -1,0 +1,18 @@
+{
+    // Set the Python interpreter path
+    "python.pythonPath": "/path/to/your/python/interpreter",
+
+    // Ensure Pylance is set as the language server
+    "python.languageServer": "Pylance",
+
+    // Specify extra paths where Python packages are installed
+    "python.analysis.extraPaths": [
+        "/home/lifeguard/.local/lib/python3.10/site-packages"
+    ],
+
+    // Set the level of type checking by Pylance
+    "python.analysis.typeCheckingMode": "basic",  // Options: off, basic, strict
+
+    // Disable Pylance caching (optional)
+    "python.analysis.cache": false
+}
